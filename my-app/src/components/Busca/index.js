@@ -3,7 +3,7 @@ import styles from './Busca.module.css';
 function Busca() {
     return (
       <div className={styles.busca}>
-        <p>Campo de busca</p>
+        <input type="text" placeholder="Pesquisar..." className={styles.input} />
       </div>
     );
   }

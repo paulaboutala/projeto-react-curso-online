@@ -1,3 +1,16 @@
-.p {
-    color: black;
+.busca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+.input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
 }
