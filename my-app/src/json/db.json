@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "imagem": "https://via.placeholder.com/150",
+      "nome": "Curso de JavaScript",
+      "preco": "R$ 199,90"
+    },
+    {
+      "id": 2,
+      "imagem": "https://via.placeholder.com/150",
+      "nome": "Curso de React",
+      "preco": "R$ 249,90"
+    },
+    {
+      "id": 3,
+      "imagem": "https://via.placeholder.com/150",
+      "nome": "Curso de Python",
+      "preco": "R$ 179,90"
+    },
+    {
+      "id": 4,
+      "imagem": "https://via.placeholder.com/150",
+      "nome": "Curso de UX/UI Design",
+      "preco": "R$ 299,90"
+    },
+    {
+      "id": 5,
+      "imagem": "https://via.placeholder.com/150",
+      "nome": "Curso de Data Science",
+      "preco": "R$ 399,90"
+    }
+  ]
+  
