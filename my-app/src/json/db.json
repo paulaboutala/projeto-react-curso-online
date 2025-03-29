@@ -3,31 +3,71 @@
       "id": 1,
       "imagem": "https://via.placeholder.com/150",
       "nome": "Curso de JavaScript",
-      "preco": "R$ 199,90"
+      "preco": "R$ 199,90",
+      "category": "Programação"
     },
     {
       "id": 2,
       "imagem": "https://via.placeholder.com/150",
-      "nome": "Curso de React",
-      "preco": "R$ 249,90"
+      "nome": "Curso de React JS",
+      "preco": "R$ 249,90",
+      "category": "Programação"
     },
     {
       "id": 3,
       "imagem": "https://via.placeholder.com/150",
-      "nome": "Curso de Python",
-      "preco": "R$ 179,90"
+      "nome": "Curso de Next JS",
+      "preco": "R$ 179,90",
+      "category": "Programação"
     },
     {
       "id": 4,
       "imagem": "https://via.placeholder.com/150",
-      "nome": "Curso de UX/UI Design",
-      "preco": "R$ 299,90"
+      "nome": "Curso de Google Ads",
+      "preco": "R$ 299,90",
+      "category": "Marketing"
     },
     {
       "id": 5,
       "imagem": "https://via.placeholder.com/150",
-      "nome": "Curso de Data Science",
-      "preco": "R$ 399,90"
+      "nome": "Curso de Social Media",
+      "preco": "R$ 399,90",
+      "category": "Marketing"
+    },
+    {
+      "id": 6,
+      "imagem": "https://via.placeholder.com/150",
+      "nome": "Curso de Branding",
+      "preco": "R$ 199,90",
+      "category": "Marketing"
+    },
+    {
+      "id": 7,
+      "imagem": "https://via.placeholder.com/150",
+      "nome": "Curso de Illustrator",
+      "preco": "R$ 249,90",
+      "category": "Ferramentas de design"
+    },
+    {
+      "id": 8,
+      "imagem": "https://via.placeholder.com/150",
+      "nome": "Curso de Photoshop",
+      "preco": "R$ 179,90",
+      "category": "Ferramentas de design"
+    },
+    {
+      "id": 9,
+      "imagem": "https://via.placeholder.com/150",
+      "nome": "Curso de InDesign",
+      "preco": "R$ 299,90",
+      "category": "Ferramentas de design"
+    },
+    {
+      "id": 10,
+      "imagem": "https://via.placeholder.com/150",
+      "nome": "Curso de After Effects",
+      "preco": "R$ 399,90",
+      "category": "Ferramentas de design"
     }
   ]
   
