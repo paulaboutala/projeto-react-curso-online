@@ -1,21 +1,21 @@
 [
     {
       "id": 1,
-      "imagem": "https://via.placeholder.com/150",
+      "imagem": "freepik1.png",
       "nome": "Curso de JavaScript",
       "preco": "R$ 199,90",
       "category": "Programação"
     },
     {
       "id": 2,
-      "imagem": "https://via.placeholder.com/150",
+      "imagem": "freepik2.png",
       "nome": "Curso de React JS",
       "preco": "R$ 249,90",
       "category": "Programação"
     },
     {
       "id": 3,
-      "imagem": "https://via.placeholder.com/150",
+      "imagem": "freepik3.png",
       "nome": "Curso de Next JS",
       "preco": "R$ 179,90",
       "category": "Programação"
