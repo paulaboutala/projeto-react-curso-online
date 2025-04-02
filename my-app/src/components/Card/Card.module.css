@@ -1,21 +1,27 @@
-.item {
+.card {
     width: 250px;
     height: 250px;
     background: white;
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden; /* Evita que elementos internos ultrapassem os limites */
+    overflow: hidden;
     display: flex;
     flex-direction: column;
 }
 
-.item .top {
-    background: #0000ff;
+.card .top {
     height: 70%;
     width: 100%;
+    overflow: hidden; 
 }
 
-.item .bottom {
+.card .top img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .bottom {
     height: 30%;
     width: 100%;
     display: flex;

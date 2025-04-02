@@ -22,49 +22,49 @@
     },
     {
       "id": 4,
-      "imagem": "https://via.placeholder.com/150",
+      "imagem": "freepik4.png",
       "nome": "Curso de Google Ads",
       "preco": "R$ 299,90",
       "category": "Marketing"
     },
     {
       "id": 5,
-      "imagem": "https://via.placeholder.com/150",
+      "imagem": "freepik5.png",
       "nome": "Curso de Social Media",
       "preco": "R$ 399,90",
       "category": "Marketing"
     },
     {
       "id": 6,
-      "imagem": "https://via.placeholder.com/150",
+      "imagem": "freepik1.png",
       "nome": "Curso de Branding",
       "preco": "R$ 199,90",
       "category": "Marketing"
     },
     {
       "id": 7,
-      "imagem": "https://via.placeholder.com/150",
+      "imagem": "freepik2.png",
       "nome": "Curso de Illustrator",
       "preco": "R$ 249,90",
       "category": "Ferramentas de design"
     },
     {
       "id": 8,
-      "imagem": "https://via.placeholder.com/150",
+      "imagem": "freepik3.png",
       "nome": "Curso de Photoshop",
       "preco": "R$ 179,90",
       "category": "Ferramentas de design"
     },
     {
       "id": 9,
-      "imagem": "https://via.placeholder.com/150",
+      "imagem": "freepik4.png",
       "nome": "Curso de InDesign",
       "preco": "R$ 299,90",
       "category": "Ferramentas de design"
     },
     {
       "id": 10,
-      "imagem": "https://via.placeholder.com/150",
+      "imagem": "freepik5.png",
       "nome": "Curso de After Effects",
       "preco": "R$ 399,90",
       "category": "Ferramentas de design"
