@@ -5,9 +5,9 @@ function Metodologia() {
     const [passoAtivo, setPassoAtivo] = useState(1);
 
     const textos = {
-        1: "Descrição do Passo 1",
-        2: "Descrição do Passo 2",
-        3: "Descrição do Passo 3"
+        1: "Acesse as aulas quando quiser e quantas vezes precisar. Flexibilidade total para encaixar os estudos na sua rotina.",
+        2: "Exercícios interativos e projetos práticos para fixar o conteúdo e aplicar o que aprendeu desde o início.",
+        3: "Conte com tutores e uma comunidade ativa para tirar dúvidas, trocar experiências e seguir avançando"
     };
 
     return (

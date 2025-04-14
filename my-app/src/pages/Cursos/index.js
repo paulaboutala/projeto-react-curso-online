@@ -6,13 +6,15 @@ import Cardlist from '../../components/Cardlist';
 
 function Cursos() {
   return (
-    <div className={styles.container}> 
+    <div> 
       <Menu />
       <Busca />
-      <h1>Lista de Cursos</h1>
-      <section className={styles.listacursos}>
-        <Cardlist/>
-      </section>
+      <div className={styles.container}>
+        <h1>Todos os nossos Cursos</h1>
+        <section className={styles.listacursos}>
+          <Cardlist/>
+        </section>
+      </div>
     </div>
   );
 }
