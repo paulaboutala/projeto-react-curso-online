@@ -1,12 +1,22 @@
 import styles from './Cardlist.module.css';
 import Card from '../Card';
-import cursos from '../../json/db.json';
 
-function Cardlist(){
+function Cardlist({cursos, emptyHeading}){
+
+    const count = cursos.length
+    let heading = emptyHeading
+    if(count > 0) {
+        const noun = count > 1 ? 'cursos' : 'curso'
+        heading = `${count} ${noun}`
+    }
+
     return(
-        <section className={styles.cardlist}>
-            {cursos.map((curso) => <Card id={curso.id} key={curso.id}/>)}
-        </section>
+        <>
+            <h1>{heading}</h1>
+            <section className={styles.cardlist}>
+                {cursos.map((curso) => <Card id={curso.id} key={curso.id}/>)}
+            </section>
+        </>
     )
 }
 

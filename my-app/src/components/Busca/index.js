@@ -11,7 +11,7 @@ function Busca() {
       <div className={styles.busca}>
 
         <input 
-        type="text" 
+        type="search" 
         placeholder="Pesquisar..." 
         value={texto}
         onChange={handleChange}

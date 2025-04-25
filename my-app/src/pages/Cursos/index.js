@@ -2,6 +2,7 @@ import styles from './Cursos.module.css';
 import Menu from '../../components/Menu';
 import Busca from '../../components/Busca';
 import Cardlist from '../../components/Cardlist';
+import cursos from "../../json/db.json";
 
 
 function Cursos() {
@@ -10,9 +11,8 @@ function Cursos() {
       <Menu />
       <Busca />
       <div className={styles.container}>
-        <h1>Todos os nossos Cursos</h1>
         <section className={styles.listacursos}>
-          <Cardlist/>
+          <Cardlist cursos={cursos}/>
         </section>
       </div>
     </div>
