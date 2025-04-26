@@ -1,27 +1,25 @@
-import {useState} from 'react';
+import { useContext } from 'react';
+import SearchContext from '../../context/SearchContext';
 import styles from './Busca.module.css';
 
 function Busca() {
+  const { searchText, setSearchText } = useContext(SearchContext);
 
-  const [texto, setTexto] = useState("");
+  const handleChange = (event) => {
+    setSearchText(event.target.value);
+  };
 
-  const handleChange = (event) => {setTexto(event.target.value);};
-
-    return (
-      <div className={styles.busca}>
-
-        <input 
-        type="search" 
-        placeholder="Pesquisar..." 
-        value={texto}
+  return (
+    <div className={styles.busca}>
+      <input
+        type="search"
+        placeholder="Pesquisar..."
+        value={searchText}
         onChange={handleChange}
-        className={styles.input} 
-        />
+        className={styles.input}
+      />
+    </div>
+  );
+}
 
-        <h1>{texto}</h1>
-
-      </div>
-      
-    );
-  }
 export default Busca;
